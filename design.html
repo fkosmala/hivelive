@@ -5,12 +5,9 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>HiveLive - Projects and tools for HIVE blockchain</title>
+
     <link href="./pico.min.css" rel="stylesheet">
-    <style>
-        .text-center{text-align: center;}
-        img{margin-bottom:3%;}
-        svg{margin:20%;}
-    </style>
+    <link href="https://fonts.cdnfonts.com/css/ridley-grotesk" rel="stylesheet">
 
     <meta name="description" content="Get into top gear with tools and projects for HIVE blockchain">
 
@@ -25,6 +22,33 @@
     <meta name="twitter:title" content="HiveLive - Projects and tools for HIVE blockchain">
     <meta name="twitter:description" content="Get into top gear with tools and projects for HIVE blockchain">
     <meta name="twitter:image" content="https://hivelive.me/logo.png">
+    <style>
+        .text-center{text-align: center;}
+        svg{margin:20%;}
+        img{margin: auto;}
+        .color {
+            height: 200px;
+            width: 200px;
+            border-radius: 50%;
+            margin: 0 auto 5% auto;
+        }
+        .dark-bg {background-color: #2e3440;}
+        .light-bg {background-color: #eceff4;}
+        .red {background-color: #bf616a;}
+        .green {background-color: #a3be8c;}
+        .yellow {background-color: #ebcb8b;}
+        .blue {background-color: #5e81ac;}
+        .purple {background-color: #b48ead;}
+        .orange {background-color: #d08770;}
+        .not_to_do img {max-height: 300px;}
+        .examples img {width: 100%;padding: 1% 0;}
+        .ridley {font-family: 'Ridley Grotesk', sans-serif;}
+        .logo-font{font-weight: 900; font-size: 32pt}
+        .font700{font-weight: 700; font-size: 32pt}
+        .font500{font-weight: 500; font-size: 32pt}
+        .font400{font-weight: 400; font-size: 32pt}
+    </style>
+
   </head>
 
   <body>
@@ -57,17 +81,79 @@
             <p>
                 About logo colors, even if only four categories exists at this time, five colors have be chosen, in addition of black and white, looking to the future.
             </p>
+            <h3>Background colors</h3>
+            <div class="grid text-center">
+                <article data-theme="light">
+                    <div class="color dark-bg">&nbsp;</div>
+                    <p>HEX: #2e3440</p>
+                </article>
+                <article data-theme="dark">
+                    <div class="color light-bg">&nbsp;</div>
+                    <p>HEX: #eceff4</p>
+                </article>
+            </div>
+            <h3>Logo colors</h3>
+            <div class="grid text-center">
+                <article>
+                    <h4>Red</h4>
+                    <div class="color red">&nbsp;</div>
+                    <p>HEX: #bf616a</p>
+                </article>
+                <article>
+                    <h4>Green</h4>
+                    <div class="color green">&nbsp;</div>
+                    <p>HEX: #a3be8c</p>
+                </article>
+                <article>
+                    <h4>Yellow</h4>
+                    <div class="color yellow">&nbsp;</div>
+                    <p>HEX: #ebcb8b</p>
+                </article>
+            </div>
+            <div class="grid text-center">
+                <article>
+                    <h4>Blue</h4>
+                    <div class="color blue">&nbsp;</div>
+                    <p>HEX: #5e81ac</p>
+                </article>
+                <article>
+                    <h4>Purple</h4>
+                    <div class="color purple">&nbsp;</div>
+                    <p>HEX: #b48ead</p>
+                </article>
+                <article>
+                    <h4>Orange</h4>
+                    <div class="color orange">&nbsp;</div>
+                    <p>HEX: #d08770</p>
+                </article>
+            </div>
         </section>
 
         <section>
             <h2>Typography</h2>
             <p>
-                The chosen font is the same as Official <a href="https://hive.io">HIVE</a> font, Ridley Grotesk ExtraBold. For logos, it will always be in uppercase.
+                The chosen font is the same as Official <a href="https://hive.io">HIVE</a> font, Ridley Grotesk ExtraBold (900). For logos, it will always be in uppercase.
+            </p>
+            <p class="ridley logo-font text-center">
+                HIVE LIVE<br>
+                A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
             </p>
 
             <h3>Related fonts</h3>
             <p>
-                Since the ExtraBold has been chosen for the logos, it can be combined with a lighter version of the Ridley Grotesk font, which would be lighter. E.g.: Bold,  SemiBold or Medium
+                Since the ExtraBold has been chosen for the logos, it can be combined with a lighter version of the Ridley Grotesk font, which would be lighter. E.g.: Bold (700),  SemiBold (500) or Medium (400)
+            </p>
+            <p class="ridley font700 text-center">
+                Text example (Bold 700)<br>
+                A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
+            </p>
+            <p class="ridley font500 text-center">
+                Text example (SemiBold 500)<br>
+                A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
+            </p>
+            <p class="ridley font400 text-center">
+                Text example (Normal 400)<br>
+                A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
             </p>
         </section>
 
@@ -83,18 +169,41 @@
                 <li>A longer version with the full name on the right-hand side.</li>
             </ul>
             <p>
-                In addition, depending on the background used, there area dark and a light version.
+                In addition, depending on the background used, there are a dark and a light version.
             </p>
+            <div class="grid text-center">
+                <article data-theme="light">
+                    <img src="./img/hl-light.png" alt="Light background version of HiveLive logo">
+                </article>
+                <article data-theme="dark">
+                    <img src="./img/hl-dark.png" alt="Dark background version of HiveLive logo">
+                </article>
+            </div>
         </section>
 
-        <section>
+        <section class="not_to_do">
             <h2>What not to do</h2>
             <h3>For logos</h3>
+            <h4>No distortion / warping</h4>
+            <article class="grid text-center" data-theme="light">
+                <img src="./img/not/deformation1.png" alt="Height deformation of logo">
+                <img src="./img/not/deformation2.png" alt="Width deformation of logo">
+            </article>
+            <h4>No rotation</h4>
+            <article class="text-center" data-theme="light">
+                <img src="./img/not/rotation.png" alt="No logo rotation">
+            </article>
             <h3>For texts</h3>
+            <h4>Text with same width</h4>
+            <h4>Vertically centered</h4>
         </section>
 
-        <section>
-            <h2>Some examples</h2>
+        <section class="examples">
+            <h2>Examples</h2>
+            <img src="./img/mockups/bottles.jpg" alt="Example of bottles">
+            <img src="./img/mockups/business-card.jpg" alt="Example of business card with Hivelive design">
+            <img src="./img/mockups/metro.jpg" alt="Example of logos on billboards">
+            <img src="./img/mockups/screens.jpg" alt="Design example on different screens">
         </section>
         
         <article>
@@ -124,7 +233,7 @@
         </article>
     </main>
     <footer class="text-center">
-        <p>All these tools are created with &#9749;, &#x1F496; and &#x231B; by <a href="https://florent-kosmala.fr">Florent "Bambukah" Kosmala</a></p>
+        <p>All these tools are created with &#9749;, &#x1F496; and &#x231B; by <a href="https://florent-kosmala.fr">Florent "Bambukah" Kosmala</a> &amp; <a href="https://peakd.com/@achara1202">Cindy "Achara1202" Ansion</a></p>
     </footer>
   </body>
 </html>
